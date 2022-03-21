@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    >
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_current"
+        android:title="Current Employees" />
+
+    <item
+        android:id="@+id/nav_previous"
+        android:title="Previous Employees" />
+
+    <item
+        android:id="@+id/nav_list"
+        android:title="List Fragment" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout" />
+</group>
+
+</menu>
